@@ -16,12 +16,10 @@ source:
 
 build:
   number: 0
-  skip: True  # [osx]
 
 requirements:
   build:
     - gcc  # [not osx]
-    - llvm  # [osx]
     - cmake
     - zlib
     - jemalloc >=4.5.0
