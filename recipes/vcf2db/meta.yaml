@@ -16,21 +16,19 @@ requirements:
     - python
     - perl
     - nomkl # [unix]
-    - snappy
     - python-snappy
-    - sqlalchemy
-    - cyvcf2
-    - numpy
+    - sqlalchemy >=0.9
+    - cyvcf2 >=0.2.0
+    - numpy >=1.0
     - peddy >=0.2.9
     - geneimpacts >0.2.0
   run:
     - python
     - nomkl # [unix]
-    - snappy
     - python-snappy
-    - sqlalchemy
-    - cyvcf2
-    - numpy
+    - sqlalchemy >=0.9
+    - cyvcf2 >=0.2.0
+    - numpy >=1.0
     - peddy >=0.2.9
     - geneimpacts >0.2.0
 
@@ -41,4 +39,4 @@ test:
 about:
   home: https://github.com/quinlan-lab/vcf2db
   license: MIT
-  summary: Create a gemini-compatible database from a VCF
+  summary: Create a GEMINI-compatible database from a VCF
